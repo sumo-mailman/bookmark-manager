@@ -18,7 +18,7 @@ describe Bookmark do
 
   describe '.create' do
     it 'adds a new bookmark' do
-      Bookmark.create("http://wwww.slack.com")
+      Bookmark.create("http://www.slack.com")
       expect(Bookmark.all).to include 'http://www.slack.com'
     end
   end

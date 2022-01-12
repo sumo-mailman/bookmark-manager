@@ -11,7 +11,7 @@ class Bookmark
 
   def self.create(url_link)
     connection = PG.connect(:dbname => 'bookmark_manager')
-    connection.exec("INSERT INTO bookmarks (url) VALUES (#{url_link});")
+    connection.exec("INSERT INTO bookmarks (url) VALUES ('#{url_link}');")
   end  
 end 
 
