@@ -8,6 +8,11 @@ class Bookmark
     result = connection.exec "SELECT * FROM bookmarks"
     result.map { |bookmark| bookmark['url'] }
   end 
+
+  def self.create(url_link)
+    connection = PG.connect(:dbname => 'bookmark_manager')
+    connection.exec("INSERT INTO bookmarks (url) VALUES (#{url_link});")
+  end  
 end 
 
 # we wanna feed the method the name of the directory
