@@ -1,11 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Josh/Projects/bookmark-manager/spec/bookmark_spec.rb": {
+      "/Users/SophieGowen/Dropbox/Makers/repos/week4/bookmark-manager/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
           1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -14,7 +22,7 @@
           null
         ]
       },
-      "/Users/Josh/Projects/bookmark-manager/spec/features/testing_working_infrastructure_spec.rb": {
+      "/Users/SophieGowen/Dropbox/Makers/repos/week4/bookmark-manager/spec/features/testing_working_infrastructure_spec.rb": {
         "lines": [
           null,
           null,
@@ -24,20 +32,26 @@
           null
         ]
       },
-      "/Users/Josh/Projects/bookmark-manager/spec/features/viewing_bookmarks_spec.rb": {
+      "/Users/SophieGowen/Dropbox/Makers/repos/week4/bookmark-manager/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
           1,
           1,
           1,
           null,
           1,
-          0,
-          0,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1641836715
+    "timestamp": 1642002799
   }
 }
