@@ -38,6 +38,16 @@
           1,
           null,
           null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
           null
         ]
       },
@@ -61,6 +71,22 @@
           1,
           1,
           null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/Josh/Projects/bookmark-manager/spec/features/deleting_a_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
           1,
           null,
           null
@@ -95,6 +121,6 @@
         ]
       }
     },
-    "timestamp": 1642089054
+    "timestamp": 1642099907
   }
 }
